@@ -52,6 +52,13 @@ export class EmployeeForm extends I18nMixin(LitElement) {
     select:focus {
       border-color: var(--color-primary, #f97316);
     }
+    input[type="date"] {
+      max-width: 100%;
+      width: 100%;
+      min-height: 34px;
+      -webkit-appearance: none;
+      appearance: none;
+    }
 
     .required::after {
       content: ' *';
