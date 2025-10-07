@@ -1,0 +1,37 @@
+/* Regular */
+@font-face {
+    font-family: 'ING Me';
+    src: url('/assets/fonts/ING-me-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'ING Me';
+    src: url('/assets/fonts/ING-me-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --color-primary: #FF6200;
+}
+
+body {
+    font-family: 'ING Me', sans-serif;
+    font-weight: 400;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    transition: all 250ms ease;
+}
+
