@@ -1,19 +1,29 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>Employee Management</title>
-  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.js"></script>
-  <script src="https://unpkg.com/lit/polyfill-support.js?module"></script>
-  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script type="module" src="/src/app.js"></script>
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="stylesheet" href="/src/styles/global.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- ✅ Web Components polyfill (isteğe bağlı, CDN'den) -->
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.js"></script>
+
+  <!-- ✅ Import Map - "lit" modülünü CDN'e yönlendirir -->
+  <script type="importmap">
+    {
+      "imports": {
+        "lit": "https://unpkg.com/lit@3.1.0/index.js?module"
+      }
+    }
+  </script>
+
+  <!-- ✅ Uygulama -->
+  <script type="module" src="/src/app.js"></script>
 </head>
 <body>
-  <my-app></my-app>
+<my-app></my-app>
 </body>
 </html>
