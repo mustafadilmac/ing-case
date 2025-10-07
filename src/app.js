@@ -1,5 +1,7 @@
 //import { LitElement, html } from 'lit';
-import {LitElement, html} from '../node_modules/lit-element/lit-element.js'
+//import {LitElement, html} from '../node_modules/lit-element/lit-element.js'
+import { LitElement, html } from 'lit-element';
+
 
 import './components/c-header.js';
 import './components/c-toast.js';
