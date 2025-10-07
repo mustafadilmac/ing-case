@@ -1,6 +1,6 @@
 //import { LitElement, html } from 'lit';
 //import {LitElement, html} from '../node_modules/lit-element/lit-element.js'
-import { LitElement, html } from 'lit-element';
+import { html, LitElement } from 'https://unpkg.com/@polymer/lit-element@latest/lit-element.js?module';
 
 
 import './components/c-header.js';
