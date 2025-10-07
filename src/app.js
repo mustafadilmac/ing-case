@@ -1,4 +1,6 @@
-import { LitElement, html } from 'lit';
+//import { LitElement, html } from 'lit';
+import {LitElement, html} from '../node_modules/lit-element/lit-element.js'
+
 import './components/c-header.js';
 import './components/c-toast.js';
 import './components/c-icon.js';
