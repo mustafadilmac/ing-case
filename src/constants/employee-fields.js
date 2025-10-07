@@ -11,7 +11,7 @@ export const EMPLOYEE_FIELDS = [
     key: "lastName",
     label: "Last Name",
     type: "text",
-    required: false,
+    required: true,
     highlight: true
   },
   {
